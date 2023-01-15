@@ -1,0 +1,17 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "our first chat box",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soumyadeep Paul",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4"
+  }
+}
